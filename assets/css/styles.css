@@ -1,3 +1,10 @@
 body {
+    color: white;
     background-color: purple;
+}
+
+#container {
+    background-color: gray;
+    width: 650px;
+    margin: 0 auto;
 }
