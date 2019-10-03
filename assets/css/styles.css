@@ -5,4 +5,10 @@
     padding: 20px;
     border: solid 1px  #cecece;
     border-radius: 3px;
+    cursor: pointer;
+}
+
+.completed {
+    color: #cecece;
+    text-decoration: line-through;
 }
