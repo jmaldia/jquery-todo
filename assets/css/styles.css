@@ -1,10 +1,14 @@
-body {
-    color: white;
-    background-color: purple;
+#container {
+    background-color: white;
+    width: 650px;
+    margin: 50px  auto;
+    padding: 20px;
+    border: solid 1px  #cecece;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
-#container {
-    background-color: gray;
-    width: 650px;
-    margin: 0 auto;
+.completed {
+    color: #cecece;
+    text-decoration: line-through;
 }
