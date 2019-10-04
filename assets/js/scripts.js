@@ -17,3 +17,11 @@ $('li').click(function(){
 //     });
 //     console.log("else: " + $(this).css("color"))
 // }
+
+// Click on X to delete
+$('span').click(function(e){
+    $(this).parent().fadeOut(300, function() {
+        $(this).remove()
+    });
+    e.stopPropagation(); // stop bubbling up
+});
