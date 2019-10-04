@@ -1,5 +1,5 @@
 // Check off Specific Todo by Clicking
-$('li').click(function(){
+$('ul').on("click", "li", function(){
     $(this).toggleClass("completed");
 });
 
@@ -20,7 +20,7 @@ $('li').click(function(){
 
 
 // Click on X to delete
-$('span').click(function(e){
+$("ul").on("click", "span", function(e){
     $(this).parent().fadeOut(300, function(){
         $(this).remove()
     });
