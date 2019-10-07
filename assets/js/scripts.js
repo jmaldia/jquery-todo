@@ -37,3 +37,8 @@ $("input[type='text']").keypress(function(e) {
         $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> " + todo + "</li>");
     }
 });
+
+// Click plus to show, hide add to do icon
+$(".fa-plus-circle").click(function(){
+    $("input[type='text']").fadeToggle();
+})
